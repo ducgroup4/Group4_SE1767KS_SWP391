@@ -382,23 +382,24 @@ header .navbar {
     padding: 0;
 }
 
-.Modern-Slider .img-fill {
+.img-fill {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height:65vh;
+    max-width: 100%;
+    height: 95vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
-    background-image: url(../images/home_1.png);
+    background-image: url(../images/ban_1.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
-    background-image: url(../images/home_2.png);
+    background-image: url(../images/ban_2.png);
 }
 
 .Modern-Slider .item-3 .img-fill {
-    background-image: url(../images/home_3.png);
+    background-image: url(../images/ban_3.png);
 }
 
 .Modern-Slider .NextArrow{
@@ -657,7 +658,7 @@ ul.slick-dots {
 
 .fun-facts {
     margin-top: 140px;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner_1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1147,7 +1148,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
     text-align: center;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner_1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
