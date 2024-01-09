@@ -1162,7 +1162,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading:before {
     content: '';
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;
@@ -1229,7 +1229,7 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-    margin-top: 140px;
+    margin-top: 40px;
 }
 
 #tabs ul {
@@ -1244,7 +1244,7 @@ footer .contact-form button.filled-button:hover {
 #tabs ul li:last-child {
     margin-bottom: 0px;
 }
-#tabs ul li a {
+#tabs ul li {
     text-transform: capitalize;
     width: 100%;
     padding: 20px;
